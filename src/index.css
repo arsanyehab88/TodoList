@@ -1,0 +1,177 @@
+/* .nav {
+  background: rgb(12, 29, 149);
+  background: linear-gradient(90deg, rgba(12, 29, 149, 0.9697128851540616) 19%, rgba(0, 212, 255, 1) 100%);
+}
+
+
+.bg-nav {
+  background: linear-gradient(109.6deg, rgb(184, 183, 183) 7%,  rgba(0, 0, 0, 0.93) 55%);
+}
+.trans{
+  
+  background-color: rgba(255, 255, 255, 0.6);
+  
+}
+*/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,700&family=Andika:ital@1&family=Kalam:wght@300&family=Montserrat:ital,wght@0,300;0,400;0,500;1,300&family=Xanh+Mono:ital@1&display=swap');
+
+.bg {
+  background-color: rgb(243, 238, 238);
+  /*   background: linear-gradient(178.6deg, #4f32f2f6 11.8%, rgba(219, 221, 222, 0.97) 83.8%);
+  font-family: 'Raleway', sans-serif;
+  ;
+  z-index: 999;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.43); */
+}
+
+
+.nav-bar {
+  background-color: transparent;
+}
+
+.logo {
+  width: 5%;
+}
+
+.logo2 {
+  width: 20%;
+}
+
+.btn-grad1 {
+  background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 5px #eee;
+  border-radius: 10px;
+  display: block;
+  width: 25%;
+}
+
+.btn-grad1:hover {
+  background-position: right center;
+
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+
+
+
+.btn-grad {
+  background-image: linear-gradient(to right, #000000 0%, #434343 51%, #000000 100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s !important;
+  background-size: 200% auto;
+  color: white !important;
+  box-shadow: 0 0 2px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+.point {
+  cursor: pointer;
+}
+
+.update-info{
+  width:50% !important;
+}
+
+
+
+
+
+/**/
+.gradient-custom-2 {
+  /* fallback for old browsers */
+
+  background: #7d40f653;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right,
+      rgba(125, 64, 246, 0.274),
+      rgba(80, 140, 252, 0.333));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right,
+      rgba(126, 64, 246, 1),
+      rgba(80, 139, 252, 1));
+}
+
+body {
+  background: #110c1a !important;
+  font-family: 'Andika', sans-serif;
+  /* Chrome 10-25, Safari 5.1-6 */
+  /*   background: -webkit-linear-gradient(to right,
+      rgba(126, 64, 246, 1),
+      rgba(80, 139, 252, 1));
+
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+  background: linear-gradient(to right,
+      rgba(126, 64, 246, 1),
+      rgba(80, 139, 252, 1)); */
+}
+
+.nav {
+  background-color: #110c1a;
+}
+
+
+
+.mask-custom {
+  background: rgba(249, 249, 249, 0.2) !important;
+  border-radius: 2em;
+  backdrop-filter: blur(25px);
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}
+
+
+
+@media (max-width: 575.98px) {
+  .btn-grad1 {
+    width: 50%;
+  }
+
+  .btn-grad {
+    padding: 10px 35px;
+  }
+
+  .update {
+    font-size: 1.2rem !important;
+  }
+  .update-info{
+    width:90% !important;
+  }
+  .logo{
+    width: 15%;
+  }
+}
+
+
+/* `md` applies to small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+  .btn-grad1 {
+    width: 40%;
+  }
+}
