@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/TodoList/static/css/main.aca76810.css",
+    "main.js": "/TodoList/static/js/main.5ac1e2bf.js",
+    "static/media/fa-solid-900.ttf": "/TodoList/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
+    "static/media/fa-brands-400.ttf": "/TodoList/static/media/fa-brands-400.13e40630e5866f777de8.ttf",
+    "static/media/fa-solid-900.woff2": "/TodoList/static/media/fa-solid-900.bdb9e23299f9d1320a8b.woff2",
+    "static/media/fa-brands-400.woff2": "/TodoList/static/media/fa-brands-400.7be2266f1be21c44ecd4.woff2",
+    "static/media/1.png": "/TodoList/static/media/1.a4b488039d7ded7d515b.png",
+    "static/media/fa-regular-400.ttf": "/TodoList/static/media/fa-regular-400.146404900f7550a9719d.ttf",
+    "static/media/fa-regular-400.woff2": "/TodoList/static/media/fa-regular-400.8bedd7cfa43a6c358cdd.woff2",
+    "static/media/fa-v4compatibility.ttf": "/TodoList/static/media/fa-v4compatibility.6c0a7b774ffa1cf0a059.ttf",
+    "static/media/fa-v4compatibility.woff2": "/TodoList/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
+    "index.html": "/TodoList/index.html",
+    "main.aca76810.css.map": "/TodoList/static/css/main.aca76810.css.map",
+    "main.5ac1e2bf.js.map": "/TodoList/static/js/main.5ac1e2bf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aca76810.css",
+    "static/js/main.5ac1e2bf.js"
+  ]
+}
