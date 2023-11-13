@@ -72,7 +72,7 @@ export default function SignIn({ usedata }) {
                 <div className="cards">
                     <div className="title pt-5">
                         <h2 >Sign In</h2>
-                        <p >Dont have account yet? <Link to="/Todo/SignUp" className=' text-decoration-none text-info'>Sign up</Link></p>
+                        <p >Dont have account yet? <Link to="/TodoList/SignUp" className=' text-decoration-none text-info'>Sign up</Link></p>
                         <hr />
                     </div>
                     <div className="body">
